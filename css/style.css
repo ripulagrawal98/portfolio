@@ -1,0 +1,67 @@
+#container-wrap {
+    background-color: floralwhite;
+}
+
+#aside-view {
+    height: 657px;
+    width: 300px;
+    padding-top: 3em;
+    padding-bottom: 40px;
+    float: left;
+    position: fixed;
+    overflow-y: scroll;
+    z-index: 1001;
+    background: #f2f3f7;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#text-center {
+    padding-left: 1%;
+    margin-left: 1%;
+}
+
+#rpl-img {
+    background-image: url('img/rpl.jpg');
+    width: 150px;
+    height: 150px;
+    float: center;
+    background-size: cover;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+#rpl-title {
+    text-align: center;
+    font-weight: 700;
+    width: 100%;
+    display: block;
+    margin-bottom: .5em;
+}
+
+#rpl-title a {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+#side-bar ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0 0 2em 0;
+    padding: 0;
+}
+
+#side-bar ul li {
+    position: relative;
+    margin: 0 0 10px 0;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
