@@ -2,8 +2,68 @@
     background-color: gainsboro;
 }
 
+#intro {
+    background: url(../img/side_bg1.jpg);
+    background-size: cover;
+    position: relative;
+    padding: 15px;
+    height: 100vh;
+    float: center;
+    background-blend-mode: screen;
+}
+
+#intro h1 {
+    text-align: center;
+    font-weight: 500;
+    color: ghostwhite;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#social {
+    position: relative;
+    text-align: center;
+}
+
+#git {
+    padding: 30px;
+    font-size: 30px;
+    opacity: 1.0;
+    color: black;
+    text-align: center;
+}
+
+#blog-AS {
+    padding: 30px;
+    font-size: 30px;
+    opacity: 1.0;
+    color: black;
+    text-align: center;
+}
+
+#linkedin {
+    padding: 30px;
+    font-size: 30px;
+    opacity: 1.0;
+    /* color: tra; */
+    text-align: center;
+}
+
+#rpl-logo {
+    background-image: url(../img/rpl.jpg);
+    width: 150px;
+    height: 150px;
+    float: center;
+    background-size: cover;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
 #aside-view {
-    height: 657px;
+    /* height: 657px; */
     width: 300px;
     padding-top: 3em;
     padding-bottom: 40px;
@@ -14,6 +74,12 @@
     background: #f2f1f7;
     -webkit-transition: 0.5s;
     transition: 0.5s;
+    background: url(../img/side_bg.jpg);
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    min-height: 500px;
+    max-height: 1080px;
 }
 
 #text-center {
