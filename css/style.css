@@ -3,19 +3,31 @@
 }
 
 #intro {
-    background: url(../img/side_bg1.jpg);
+    background: url(../img/side_bg4.jpg);
     background-size: cover;
     position: relative;
-    padding: 15px;
+    padding: 10px;
+    margin: auto;
+    margin-left: auto;
     height: 100vh;
     float: center;
     background-blend-mode: screen;
+    overflow: hidden;
 }
 
 #intro h1 {
     text-align: center;
     font-weight: 500;
     color: ghostwhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+}
+
+#intro h2 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 40px;
+    color: whitesmoke;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -25,41 +37,65 @@
 }
 
 #git {
-    padding: 30px;
-    font-size: 30px;
+    padding: 20px;
+    font-size: 40px;
     opacity: 1.0;
     color: black;
     text-align: center;
 }
 
 #blog-AS {
-    padding: 30px;
-    font-size: 30px;
+    padding: 20px;
+    font-size: 40px;
     opacity: 1.0;
     color: black;
     text-align: center;
 }
 
 #linkedin {
-    padding: 30px;
-    font-size: 30px;
+    padding: 20px;
+    font-size: 40px;
+    opacity: 1.0;
+    color: #0e76a8;
+    text-align: center;
+}
+
+#twitter {
+    padding: 20px;
+    font-size: 40px;
     opacity: 1.0;
     /* color: tra; */
     text-align: center;
 }
 
-#rpl-logo {
-    background-image: url(../img/rpl.jpg);
-    width: 150px;
-    height: 150px;
-    float: center;
+#work {
+    background: url(../img/side_bg8.jpg);
     background-size: cover;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    border-radius: 50%;
-    background-position: center;
     position: relative;
-    background-repeat: no-repeat;
+    padding: 10px;
+    margin: auto;
+    margin-left: auto;
+    height: 100vh;
+    float: center;
+    background-blend-mode: screen;
+    overflow: hidden;
+}
+
+#exp-heading {
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
+    text-align: center;
+    font-size: 50px;
+}
+
+#exp-timeline {
+    color: cyan;
+}
+
+#vtimeline-point {
+    border-top: 2px dashed;
+    border-color: darkcyan;
 }
 
 #aside-view {
