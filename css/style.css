@@ -3,7 +3,7 @@
 }
 
 #intro {
-    background: url(../img/side_bg4.jpg);
+    background: url(../img/side_bg10.jpg);
     background-size: cover;
     position: relative;
     padding: 10px;
@@ -40,7 +40,7 @@
     padding: 20px;
     font-size: 40px;
     opacity: 1.0;
-    color: black;
+    color: #A9A9A9;
     text-align: center;
 }
 
@@ -48,7 +48,7 @@
     padding: 20px;
     font-size: 40px;
     opacity: 1.0;
-    color: black;
+    color: #A9A9A9;
     text-align: center;
 }
 
