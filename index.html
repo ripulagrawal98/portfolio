@@ -2,31 +2,60 @@
 
 <head>
     <title>Ripul Agrawal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
 
 </head>
 
 <body>
+
+    <!-- Navigation Bar------------------------- -->
+    <nav class="navbar navbar-expand fixed-top" id="nav-details">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation-bar" style="background-color: cornflowerblue;">
+            <span class="navbar-toggler-icon">&#9776;</span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav-div">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#intro">Home</a></li>
+                <li><a href="#work">Work Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#">Projects</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Navigation Bar End Here--------------------------------------------------------- -->
+
+    <!-- Intro Section Begin Here--------------------------------------------------- -->
     <div id="intro">
-        <div class="container">
-            <h1>Ripul Agrawal</h1>
-            <hr color="gray">
-            <h2>Software Developer | Data Science Blogger</h2>
-            <div id="rpl-img"></div>
-            <div id="social">
-                <a id="git" href="https://github.com/ripulagrawal98" target="__blank"><i class="fa fa-github"></i></a>
-                <a id="blog-AS" href="https://www.analyticssteps.com/author/ripul-agrawal" target="__blank"><i class="fa fa-medium"></i></a>
-                <a id="linkedin" href="https://www.linkedin.com/in/ripul-agrawal/" target="__blank"><i class="fa fa-linkedin-square"></i></a>
-                <a id="twitter" href="https://twitter.com/ripul_agrawal" target="__blank"><i class="fa fa-twitter"></i></a>
+        <div class="row">
+            <div class="container">
+                <h1>Ripul Agrawal</h1>
+                <hr color="gray">
+                <h2>Software Developer | Data Science Blogger</h2>
+                <div id="rpl-img"></div>
+                <div id="social">
+                    <a id="git" href="https://github.com/ripulagrawal98" target="__blank"><i class="fa fa-github"></i></a>
+                    <a id="blog-AS" href="https://www.analyticssteps.com/author/ripul-agrawal" target="__blank"><i class="fa fa-medium"></i></a>
+                    <a id="linkedin" href="https://www.linkedin.com/in/ripul-agrawal/" target="__blank"><i class="fa fa-linkedin-square"></i></a>
+                    <a id="twitter" href="https://twitter.com/ripul_agrawal" target="__blank"><i class="fa fa-twitter"></i></a>
+                </div>
             </div>
         </div>
     </div>
-    <!-- Intro Div class ended Here------------------------- -->
+
+    <!-- Intro Div class ended Here---------------------------------------------------------------------------->
 
 
-    <!-- Work Experience Start from here----------------------------------- -->
+    <!-- Work Experience Start from here---------------------------------------------------------------------------->
     <div id="work">
         <div class="row">
             <div class="col-md-6 offset-md-3">
@@ -40,7 +69,7 @@
                     <hr>
                     <li>
                         <h5>Data Science Blogger</h5>
-                        <h6>Analytics Steps,Noida</h6>
+                        <h6><i>Analytics Steps,Noida</i></h6>
                         <p style="font-weight: 500;">Worked on several projects in the field of <b>Data Science & Computer Vision</b> and maintain blogs for the same</p>
                     </li>
                     <li>
@@ -51,7 +80,36 @@
                 </ul>
             </div>
         </div>
-
+    </div>
+    <!-- Work Experience Area Completed-------------------------------------------------------------------------------->
+    <!-- Education Area started----------------------------------------------------------------------------------------- -->
+    <div id="education">
+        <h3 id="edu-heading">Education</h3>
+        <div class="timeline">
+            <div class="container left" id="edu-details">
+                <ul>
+                    <li>
+                        <figure class="timeline-icon">
+                            <img src="../img/grad-2x">
+                        </figure>
+                        <h5>Dr. B.R. Ambedkar National Institute of Technology, Jalandhar</h5>
+                        <h6>Grduation in Electronics & Communication Engineering</h6>
+                        <p>7.34 CGPA</p>
+                    </li>
+                    <li><i class="glyphicon">&#xe233;</i>
+                        <h5>D. S. Science Academy Senior Secondary School</h5>
+                        <h6>XII Grade (Board of Secondary Education, Rajasthan</h6>
+                        <p>91 %</p>
+                    </li>
+                    <li>
+                        <i class="glyphicon">&#xe233;</i>
+                        <h5>Creative Public Senior Secondary School</h5>
+                        <h6>X Grade (Board of Secondary Education, Rajasthan</h6>
+                        <p>91.67 %</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
 
 </body>
