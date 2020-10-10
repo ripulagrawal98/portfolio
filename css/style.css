@@ -296,7 +296,7 @@ ul {
 
 @media only screen and (min-width: 768px) {
     #work .timeline::before {
-        content: "";
+        content: " ";
         position: absolute;
         top: 0;
         width: 2px;
@@ -309,7 +309,16 @@ ul {
         position: relative;
         margin-top: auto;
         padding-top: 1px;
-        transform: translateX(-30px);
+        transform: translateX(-20px);
+    }
+    #work .timeline-icon {
+        transform: translateX(-55px);
+        top: 0;
+        background-color: #252843;
+        position: absolute;
+        border-radius: 50%;
+        padding: 7px;
+        font-size: 30px;
     }
 }
 
@@ -467,7 +476,7 @@ ul {
         transform: translateX(-10px);
     }
     #projects .timeline-icon {
-        transform: translateX(-70px);
+        transform: translateX(-45px);
         top: 0;
         background-color: lightgrey;
         position: absolute;
