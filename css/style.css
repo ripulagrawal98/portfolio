@@ -17,8 +17,6 @@
 }
 
 #intro {
-    /* background: url(../img/side_bg10.jpg); */
-    /* background-size: cover; */
     background-color: honeydew;
     position: relative;
     padding: 35px;
@@ -136,8 +134,7 @@ ul {
 /* Work CSS ********************************************************* */
 
 #work {
-    background: url(../img/side_bg4.jpg);
-    background-size: cover;
+    /* background-color: whitesmoke; */
     align-items: center;
     display: flex;
     justify-content: center;
@@ -287,6 +284,87 @@ ul {
         transform: translateX(-70px);
         top: 0;
         background-color: #252843;
+        position: absolute;
+        border-radius: 50%;
+        padding: 7px;
+        font-size: 30px;
+    }
+}
+
+
+/* ****************************************CSS for projects**************************************************** */
+
+#projects {
+    background-color: whitesmoke;
+    /* text-align: center; */
+    padding-top: 40px;
+    align-items: center;
+    display: flex;
+    font-family: 'Montserrat' sans-serif;
+}
+
+#project-heading {
+    top: 0;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+    color: black;
+}
+
+#projects .timeline {
+    position: relative;
+    margin-left: 20%;
+}
+
+#timeline-ul {
+    list-style: none;
+}
+
+#projects .timeline ul li {
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+#projects .timeline-content h1 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    text-align: left;
+    align-items: center;
+}
+
+#projects .timeline-content p {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+@media only screen and (min-width: 768px) {
+    #projects .timeline::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        /* margin-left: 10px; */
+        left: 1%;
+        width: 2px;
+        height: 100%;
+        background-color: black;
+        margin-bottom: 10px;
+    }
+    #projects .timeline ul li {
+        width: 70%;
+        position: relative;
+        margin-top: auto;
+        padding-top: 1px;
+        transform: translateX(-10px);
+    }
+    #projects .timeline-icon {
+        transform: translateX(-70px);
+        top: 0;
+        background-color: lightgrey;
         position: absolute;
         border-radius: 50%;
         padding: 7px;
