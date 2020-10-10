@@ -51,6 +51,8 @@
 #intro-about {
     margin-top: 2%;
     font-family: 'Montserrat' sans-serif;
+    position: absolute;
+    z-index: 2;
 }
 
 #intro-about h1 {
@@ -128,6 +130,109 @@ ul {
     opacity: 1.0;
     color: black;
     text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    #intro {
+        background-color: honeydew;
+        position: relative;
+        padding: 35px;
+        margin: auto;
+        margin-left: auto;
+        margin-top: 35px;
+        height: 100vh;
+        float: center;
+        background-blend-mode: screen;
+        overflow: hidden;
+        align-self: center;
+        font-family: 'Montserrat' sans-serif;
+    }
+    #intro h1 {
+        text-align: center;
+        top: 0;
+        font-weight: 500;
+        color: black;
+        /* font-family: 'Times New Roman', Times, serif; */
+        font-size: 50px;
+    }
+    #intro h2 {
+        text-align: center;
+        font-weight: 300;
+        font-size: 30px;
+        color: black;
+        /* font-family: 'Times New Roman', Times, serif; */
+    }
+    #intro-about {
+        margin-top: 2%;
+        font-family: 'Montserrat' sans-serif;
+    }
+    #intro-about h1 {
+        font-weight: 400;
+        font-size: 35px;
+        text-align: left;
+        font-style: underlin;
+    }
+    #about p,
+    ul {
+        font-size: 15px;
+        color: black;
+    }
+    #about {
+        border: 2px solid black;
+        box-sizing: border-box;
+        border-radius: 30px;
+    }
+    #rpl-img {
+        background-image: url(../img/rpl.jpg);
+        height: 300px;
+        width: 300px;
+        border-radius: 60px;
+        background-size: cover;
+        margin-left: 8%;
+        top: 0;
+    }
+    #social {
+        position: relative;
+        /* text-align: left; */
+        align-content: left;
+        margin-left: 0;
+        right: 0;
+    }
+    #git {
+        padding: 20px;
+        font-size: 40px;
+        opacity: 1.0;
+        color: #101010;
+        text-align: center;
+    }
+    #blog-AS {
+        padding: 20px;
+        font-size: 40px;
+        opacity: 1.0;
+        color: #101010;
+        text-align: center;
+    }
+    #linkedin {
+        padding: 20px;
+        font-size: 40px;
+        opacity: 1.0;
+        color: #0e76a8;
+        text-align: center;
+    }
+    #twitter {
+        padding: 20px;
+        font-size: 40px;
+        opacity: 1.0;
+        /* color: tra; */
+        text-align: center;
+    }
+    #resume {
+        padding: 20px;
+        font-size: 40px;
+        opacity: 1.0;
+        color: black;
+        text-align: center;
+    }
 }
 
 
