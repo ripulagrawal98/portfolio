@@ -20,13 +20,9 @@
     background-color: honeydew;
     position: relative;
     padding: 35px;
-    margin: auto;
-    margin-left: auto;
+    /* margin-left: auto; */
     margin-top: 35px;
-    height: 100vh;
     float: center;
-    background-blend-mode: screen;
-    overflow: hidden;
     align-self: center;
     font-family: 'Montserrat' sans-serif;
 }
@@ -51,8 +47,7 @@
 #intro-about {
     margin-top: 2%;
     font-family: 'Montserrat' sans-serif;
-    position: absolute;
-    z-index: 2;
+    box-sizing: content-box;
 }
 
 #intro-about h1 {
@@ -62,16 +57,23 @@
     font-style: underlin;
 }
 
-#about p,
-ul {
-    font-size: 15px;
-    color: black;
+#pic {
+    position: relative;
 }
 
 #about {
     border: 2px solid black;
     box-sizing: border-box;
     border-radius: 30px;
+    position: relative;
+    display: block;
+}
+
+#about p,
+ul {
+    font-size: 15px;
+    color: black;
+    min-width: 50px;
 }
 
 #rpl-img {
@@ -484,4 +486,57 @@ ul {
         padding: 7px;
         font-size: 30px;
     }
+}
+
+
+/* *******************************************Contact ********************************************/
+
+#contact {
+    padding-top: 50px;
+    align-items: center;
+    font-family: 'Montserrat' sans-serif;
+}
+
+#contact-heading {
+    top: 0;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+    color: black;
+}
+
+#contact .row {
+    position: relative;
+    margin-left: 30%;
+}
+
+#contact .row ul {
+    list-style: none;
+}
+
+#contact .row ul li {
+    padding: 10px;
+    /* background-color: gainsboro; */
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+#img-contact {
+    /* width: %; */
+    right: 0;
+    position: relative;
+    display: inline-block;
+    font-size: 50px;
+    font-weight: 800;
+    padding: 20px;
+    background-color: #E8E5E4;
+    border-radius: 30px;
+}
+
+#a-contact {
+    position: relative;
+    right: 0;
+    display: inline-block;
+    padding: 35px;
+    font-size: 90x;
 }
