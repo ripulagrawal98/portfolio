@@ -489,54 +489,23 @@ ul {
 }
 
 
-/* *******************************************Contact ********************************************/
+/* *******************************************Blogs ********************************************/
 
-#contact {
-    padding-top: 50px;
-    align-items: center;
-    font-family: 'Montserrat' sans-serif;
-}
-
-#contact-heading {
-    top: 0;
-    font-size: 40px;
-    text-align: center;
-    font-weight: 500;
-    color: black;
-}
-
-#contact .row {
-    position: relative;
-    margin-left: 30%;
-}
-
-#contact .row ul {
+#blog-card {
     list-style: none;
+    flex-wrap: wrap;
+    display: flex;
+    box-sizing: border-box;
 }
 
-#contact .row ul li {
-    padding: 10px;
-    /* background-color: gainsboro; */
-    margin-bottom: 10px;
-    border-radius: 20px;
+#blog-card li {
+    float: right;
+    padding: 15px;
+    display: flex;
+    /* margin-right: 10px;
+    margin-bottom: 10%; */
 }
 
-#img-contact {
-    /* width: %; */
-    right: 0;
-    position: relative;
-    display: inline-block;
-    font-size: 50px;
-    font-weight: 800;
-    padding: 20px;
-    background-color: #E8E5E4;
-    border-radius: 30px;
-}
-
-#a-contact {
-    position: relative;
-    right: 0;
-    display: inline-block;
-    padding: 35px;
-    font-size: 90x;
+.w3-card-4 {
+    box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.2);
 }
