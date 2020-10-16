@@ -458,7 +458,7 @@ ul {
     font-weight: 400;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 481px) {
     #projects .timeline::before {
         content: "";
         position: absolute;
@@ -508,4 +508,23 @@ ul {
 
 .w3-card-4 {
     box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 481px) {
+    #blog-card {
+        list-style: none;
+        flex-wrap: wrap;
+        display: flex;
+        box-sizing: border-box;
+    }
+    #blog-card li {
+        float: right;
+        padding: 15px;
+        display: flex;
+        /* margin-right: 10px;
+        margin-bottom: 10%; */
+    }
+    .w3-card-4 {
+        box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.2);
+    }
 }
