@@ -22,16 +22,21 @@
 
     <!-- Navigation Bar------------------------- -->
     <nav class="navbar navbar-expand-lg fixed-top" id="nav-details">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation-bar" style="color: white;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation-bar" aria-controls="#navigation-bar" aria-expanded="false" style="color: white;">
             <span class="navbar-toggler-icon">&#9776;</span>
         </button>
         <div class="collapse navbar-collapse" id="navigation-bar">
             <ul class="navbar-nav">
-                <li class="nav-items "><a class="nav-link" href="#intro">Home</a></li>
+                <li class="nav-items "><a class="nav-link" href="#intro">Home <span class="sr-only">(current)</span></a></li>
                 <li class="nav-items"><a class="nav-link" href="#work">Work Experience</a></li>
                 <li class="nav-items"><a class="nav-link" href="#education">Education</a></li>
                 <li class="nav-items"><a class="nav-link" href="#projects">Projects</a></li>
                 <li class="nav-items"><a class="nav-link" href="#blogs">Blogs</a></li>
+                <script>
+                    $('.navbar-collapse a').click(function() {
+                        $(".navbar-collapse").collapse('hide');
+                    });
+                </script>
             </ul>
         </div>
     </nav>
